@@ -1,0 +1,11 @@
+{
+    "name": "simplew/phpframework",
+    "description": "A simple PHP MVC framework.",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "SimpleW\\": "app/"
+        }
+    },
+    "require": {}
+}
