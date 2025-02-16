@@ -1,11 +1,11 @@
 <?php
 
-namespace SimpleW\Controllers; // ✅ Correct namespace
+namespace SimpleW\Controllers;
 
-use SimpleW\Core\Controller; // ✅ Import base controller
+use SimpleW\Core\Controller;
 
 class HomeController extends Controller {
     public function index() {
-        echo "Welcome to SimpleW PHP Framework!";
+        $this->view('home', ['message' => 'Welcome to SimpleW PHP Framework!']);
     }
 }
