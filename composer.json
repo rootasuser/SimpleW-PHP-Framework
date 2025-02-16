@@ -7,5 +7,11 @@
             "SimpleW\\": "app/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rootasuser/SimpleWPHPFramework.git"
+        }
+    ],
     "require": {}
 }
